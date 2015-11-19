@@ -1,0 +1,78 @@
+.blank {
+	font-size: 40px;
+}
+
+.red {
+	font-size: 50px;
+	color: white;
+	background-color: red;
+}
+
+.blue {	
+	font-size: 30px;
+	background-color: blue;
+	color: white;
+}
+
+.size {
+	font-size: 70px;
+}
+
+.newfont {
+	font-size: 50px;
+	font-family: Georgia;
+}
+
+.underline {
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+.spin {
+	font-size: 40px;
+	-webkit-animation: spin 5s infinite;
+}
+
+@-webkit-keyframes spin {
+   from { -webkit-transform: rotate(0deg); }
+   to { -webkit-transform: rotate(360deg); }
+}
+
+body {
+	background-color: #F6F792;
+}
+
+button {
+	width: 200px;
+	height: 60px;
+	font-size: 40px;
+	
+}
+.btn-lg {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+div {
+	text-align: center;
+}
+
+.headline {
+	font-size: 150px;
+}
+
+header {
+	margin: 100px;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-pj6zCRaue5bg5r7rE6YfnuBba-jShRZG4QroFkJfQXVOYOBAg);
+	width: 1000px;
+	height: 150px;
+}
+
+h1 {	
+	font-size: 70px;
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: center;
+}
